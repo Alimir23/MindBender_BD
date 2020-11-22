@@ -19,5 +19,6 @@ if __name__ == '__main__':
 
 	#LIIS1.saveAsTextFile("hdfs://Master:9000/Spark")
 	
-	
-	
+
+
+SparkContext.stop()
