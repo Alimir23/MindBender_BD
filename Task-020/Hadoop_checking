@@ -1,0 +1,18 @@
+#!/bin/bash
+
+results=$(jps)
+
+echo "${results}"
+if [[ "${results}" == *"NameNode"* ]]; then
+echo "Hadoop is Running"
+else
+echo "Hadoop is NOT!! running"
+eval start-all.sh
+
+fi
+
+
+
+
+
+
